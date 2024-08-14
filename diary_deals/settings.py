@@ -3,7 +3,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure--%!4pp318@-d4f5pifz^tmka%85xc8kl4$j&qf018exu593s#w'
+SECRET_KEY = 'django-insecure--999999999999999999999999999999999999999999999'
 
 DEBUG = True
 
@@ -62,9 +62,9 @@ WSGI_APPLICATION = 'diary_deals.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'django_diary',
+        'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD': 'gipparkosqwe',
+        'PASSWORD': 'postgres',
         'HOST': 'localhost',
         'PORT': '5432',
     },
